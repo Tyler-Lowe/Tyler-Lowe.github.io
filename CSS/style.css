@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+section {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.top-color {
+    height: 3rem;
+    background-color: rgb(80, 80, 237);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.email {
+    padding-right: 2rem;
+}
+
+.linkedin {
+    padding-left: 2rem;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+hr {
+    /* height: 1px; */
+    height: .3rem;
+    flex-grow: 1;
+    background-color: rgb(80, 80, 237);
+}
+
+.heading-section {
+    padding: 0 2rem;
+}
